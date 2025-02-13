@@ -24,12 +24,11 @@ h1 {
 }
 
 .pixel-art {
-    width: 100px;
-    height: 100px;
-    background-color: #ff4d94;
+    width: 100px; /* Adjust the size as needed */
+    height: auto; /* Maintain aspect ratio */
     margin: 20px auto;
-    position: relative;
-    animation: pulse 1s infinite;
+    display: block;
+}
 }
 
 .pixel-art::before,
