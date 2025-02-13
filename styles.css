@@ -18,7 +18,7 @@ body {
 }
 
 h1 {
-    color: #ff4d94;
+    color: white; /* Updated font color to white */
     font-size: 2.5em;
     margin-bottom: 20px;
 }
@@ -28,31 +28,12 @@ h1 {
     height: auto; /* Maintain aspect ratio */
     margin: 20px auto;
     display: block;
-}
-}
-
-.pixel-art::before,
-.pixel-art::after {
-    content: '';
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    background-color: #ff4d94;
-}
-
-.pixel-art::before {
-    top: -10px;
-    left: -10px;
-}
-
-.pixel-art::after {
-    bottom: -10px;
-    right: -10px;
+    animation: pulse 1s infinite; /* Add pulsing animation */
 }
 
 .pixel-font {
     font-family: 'Press Start 2P', cursive;
-    color: #ff4d94;
+    color: white; /* Updated font color to white */
     font-size: 1.2em;
 }
 
