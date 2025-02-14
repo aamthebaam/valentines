@@ -2,7 +2,7 @@ const yesButton = document.getElementById('yesButton');
 const noButton = document.getElementById('noButton');
 
 yesButton.addEventListener('click', function () {
-    alert('Yay! Happy Valentine\'s Day! 💖');
+    alert('Yay! Happy Valentine\'s Day! 💖 Thank you for this honour...');
 });
 
 noButton.addEventListener('click', function () {
